@@ -5,5 +5,5 @@
 
 // module.exports = nextConfig
 module.exports = {
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/<repository-name>/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/<Simran-Portfolio>/' : '',
 };
