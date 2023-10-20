@@ -39,12 +39,12 @@ export default function Home() {
 
           </p>
           <div className=' flex items-center self-start mt-2 lg:self-center'>
-          <Link href='/' target='_blank' className='flex items-center bg-dark text-light p-2 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base' 
+          <Link href='/Simranpreet Singh Latest(Resume).pdf' target='_blank' className='flex items-center bg-dark text-light p-2 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark md:p-2 md:px-4 md:text-base' 
            download={true}
           >Resume
           <LinkArrow className={"w-6 ml-1"}/>
           </Link>
-          <Link href="mailto:singsimranpreet916@gmail.com" target='_blank' className='ml-4 text-lg font-medium text-dark underline md:text-base' >Contact us</Link>
+          <Link href="mailto:singsimranpreet916@gmail.com" target='_blank' className='ml-4 text-lg font-medium text-dark underline md:text-base' >Contact me</Link>
           </div>
           </div>
         </div>
