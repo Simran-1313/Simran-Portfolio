@@ -134,7 +134,7 @@ const NavBar = () => {
       <TwitterIcon/>
       </motion.a>
 
-      <motion.a href="/" target= {"_blank"}
+      <motion.a href="https://github.com/Simran-1313" target= {"_blank"}
       whileHover={{y:-2}}
       whileTap={{scale:0.9}}
       className='w-6 mx-3 bg-light rounded-full sm:mx-1'
@@ -150,7 +150,7 @@ const NavBar = () => {
       <PinterestIcon/>
       </motion.a>
 
-      <motion.a href="/" target= {"_blank"}
+      <motion.a href="https://www.linkedin.com/in/simranpreet-singh-ab31641b8" target= {"_blank"}
       whileHover={{y:-2}}
       whileTap={{scale:0.9}}
       className='w-6 mx-3 sm:mx-1'
