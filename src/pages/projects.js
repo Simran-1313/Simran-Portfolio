@@ -52,7 +52,7 @@ const projects = () => {
          summary="The system was developed using Python, OpenCV, and Haar Cascades to identify and locate individuals' faces in photographs.
  "
           link="/"
-          github="/"
+          github="https://github.com/Simran-1313"
           type="Featured Project"
           img={project1}
                     />
