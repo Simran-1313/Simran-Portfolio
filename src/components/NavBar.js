@@ -2,7 +2,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import Logo from './Logo';
 import { useRouter } from 'next/router';
-import  {TwitterIcon, DribbbleIcon, GithubIcon, LinkedInIcon, PinterestIcon } from './icons';
+import  {TwitterIcon, Instagram, GithubIcon, LinkedInIcon, PinterestIcon } from './icons';
 import { motion } from 'framer-motion';
 
 const CustomLink = ({href,title,className = ""}) =>{
@@ -98,12 +98,12 @@ const NavBar = () => {
       <LinkedInIcon/>
       </motion.a>
 
-      <motion.a href="/" target= {"_blank"}
+      <motion.a href="https://www.instagram.com/singhsimranpreet916" target= {"_blank"}
       whileHover={{y:-2}}
       whileTap={{scale:0.9}}
       className='w-6 ml-3'
       >
-      <DribbbleIcon/>
+      <Instagram/>
       </motion.a>
 
     </nav>
@@ -158,12 +158,12 @@ const NavBar = () => {
       <LinkedInIcon/>
       </motion.a>
 
-      <motion.a href="/" target= {"_blank"}
+      <motion.a href="https://www.instagram.com/singhsimranpreet916" target= {"_blank"}
       whileHover={{y:-2}}
       whileTap={{scale:0.9}}
       className='w-6 ml-3 sm:mx-1'
       >
-      <DribbbleIcon/>
+      <Instagram/>
       </motion.a>
 
     </nav>
