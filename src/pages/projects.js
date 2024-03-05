@@ -7,6 +7,7 @@ import Link from 'next/link'
 import React from 'react'
 import project1 from '../../public/images/projects/Project1.png';
 import project2 from '../../public/images/projects/Project2.jpg';
+import project3 from '../../public/images/projects/Project3.png';
 import TransitionEffect from '@/components/TransitionEffect'
 const FeaturedProject= ({type,title,summary,img,link,github}) =>{
   return(
@@ -61,7 +62,7 @@ const projects = () => {
           <div className='col-span-12'>
           <FeaturedProject
          title='iNotebook'
-         summary="It is a React App for taking Notes , Editing and Deleting them,and has authentication system for Privacy.It is like Notebook on Cloud
+         summary="It is a MERN App for taking Notes , Editing and Deleting them,and has authentication system for Privacy.It is like Notebook on Cloud
  "
           link="/"
           github="https://github.com/Simran-1313"
@@ -69,7 +70,17 @@ const projects = () => {
           img={project2}
                     />
           </div>
-          
+          <div className='col-span-12'>
+          <FeaturedProject
+         title='E -Commerce website'
+         summary="It is a Project where Data has Fetched Using Context. It is for learning Purposes
+ "
+          link="/"
+          github="https://github.com/Simran-1313"
+          type="Featured Project"
+          img={project3}
+                    />
+          </div>
         </div>
       </Layout>
     </main>
