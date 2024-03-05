@@ -5,7 +5,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import project1 from '../../public/images/projects/project(open cv).jpeg';
+import project1 from '../../public/images/projects/Project1.png';
+import project2 from '../../public/images/projects/Project2.jpg';
 import TransitionEffect from '@/components/TransitionEffect'
 const FeaturedProject= ({type,title,summary,img,link,github}) =>{
   return(
@@ -48,13 +49,24 @@ const projects = () => {
         <div className='grid grid-cols-12 gap-24 gap-y-32  xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0 ' >
           <div className='col-span-12'>
           <FeaturedProject
-         title='Face Detection Using OpenCv'
-         summary="The system was developed using Python, OpenCV, and Haar Cascades to identify and locate individuals' faces in photographs.
+         title='Portfolio Website '
+         summary="This Website was Built by me Using NextJs, Tailwind CSS and Framer Motion. It is a Single page application.
  "
           link="/"
           github="https://github.com/Simran-1313"
           type="Featured Project"
           img={project1}
+                    />
+          </div>
+          <div className='col-span-12'>
+          <FeaturedProject
+         title='iNotebook'
+         summary="It is a React App for taking Notes , Editing and Deleting them,and has authentication system for Privacy.It is like Notebook on Cloud
+ "
+          link="/"
+          github="https://github.com/Simran-1313"
+          type="Featured Project"
+          img={project2}
                     />
           </div>
           
