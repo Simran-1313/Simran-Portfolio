@@ -52,7 +52,7 @@ const projects = () => {
           <div className='col-span-12'>
           <FeaturedProject
          title='Portfolio Website '
-         summary="This Website was Built by me Using NextJs, Tailwind CSS and Framer Motion. It is a Single page application and fully Responsive acroos devices.
+         summary="This Website was Built by me Using NextJs, Tailwind CSS and Framer Motion. It is a Single page application and fully Responsive across devices.
  "
           link="/"
           github="https://github.com/Simran-1313"
@@ -63,7 +63,7 @@ const projects = () => {
           <div className='col-span-12'>
           <FeaturedProject
          title='iNotebook'
-         summary="It is a MERN App for taking Notes , Editing and Deleting them,and has authentication system for Privacy.It is like Notebook on Cloud
+         summary="It is a MERN App for taking Notes, Editing and Deleting them,and has authentication system for Privacy.It is like Notebook on Cloud
  "
           link="/"
           github="https://github.com/Simran-1313"
@@ -74,7 +74,7 @@ const projects = () => {
           <div className='col-span-12'>
           <FeaturedProject
          title='E -Commerce website'
-         summary="It is Fully Responsive a Project where Data has Fetched Using Context. It is for learning Purposes
+         summary="It is a fully Responsive Project where Data has Fetched Using Context. It is for learning Purposes
  "
           link="https://rapidproject.vercel.app/"
           github="https://github.com/Simran-1313"
