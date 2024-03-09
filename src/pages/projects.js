@@ -8,6 +8,7 @@ import React from 'react'
 import project1 from '../../public/images/projects/Project1.png';
 import project2 from '../../public/images/projects/Project2.jpg';
 import project3 from '../../public/images/projects/Project3.png';
+import project4 from '../../public/images/projects/Project4.png';
 import TransitionEffect from '@/components/TransitionEffect'
 const FeaturedProject= ({type,title,summary,img,link,github}) =>{
   return(
@@ -51,7 +52,7 @@ const projects = () => {
           <div className='col-span-12'>
           <FeaturedProject
          title='Portfolio Website '
-         summary="This Website was Built by me Using NextJs, Tailwind CSS and Framer Motion. It is a Single page application.
+         summary="This Website was Built by me Using NextJs, Tailwind CSS and Framer Motion. It is a Single page application and fully Responsive acroos devices.
  "
           link="/"
           github="https://github.com/Simran-1313"
@@ -73,12 +74,23 @@ const projects = () => {
           <div className='col-span-12'>
           <FeaturedProject
          title='E -Commerce website'
-         summary="It is a Project where Data has Fetched Using Context. It is for learning Purposes
+         summary="It is Fully Responsive a Project where Data has Fetched Using Context. It is for learning Purposes
  "
-          link="/"
+          link="https://rapidproject.vercel.app/"
           github="https://github.com/Simran-1313"
           type="Featured Project"
           img={project3}
+                    />
+          </div>
+          <div className='col-span-12'>
+          <FeaturedProject
+         title='Password Generator'
+         summary="It is a Responsive Password Generator Built in Javascript.A visually intuitive Password Strength Indicator offers immediate feedback on the generated password's strength, categorizing it as weak, medium, or strong
+ "
+          link="https://simran-1313.github.io/Password-Generator/"
+          github="https://github.com/Simran-1313/Password-Generator/tree/master"
+          type="Featured Project"
+          img={project4}
                     />
           </div>
         </div>

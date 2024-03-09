@@ -71,7 +71,7 @@ const about = () => {
            
         </div>
         <div className=' col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 xl:col-span-4 md:order-1 md:col-span-8'>
-            <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark '/>
+            <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl'/>
                 <Image src={profilepic} alt="Simranpreet Singh" className= "w-full h-auto rounded-2xl "
                  priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"  />
@@ -87,7 +87,7 @@ const about = () => {
                 </div>
                 <div className='flex flex-col items-end justify-center xl:text-center md:items-center ' >
                     <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:4xl ' >
-                        <AnimatedNumbers value={2}/>
+                        <AnimatedNumbers value={4}/>+
                     </span>
                     <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base  xs:text-sm  ' >
                        Projects Completed 
@@ -95,7 +95,7 @@ const about = () => {
                 </div>
                 <div className='flex flex-col items-end justify-center xl:text-center md:items-center ' >
                     <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:4xl ' >
-                        <AnimatedNumbers value={4}/>+
+                        <AnimatedNumbers value={12}/>+
                     </span>
                     <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base  xs:text-sm  ' >
                        months of experience

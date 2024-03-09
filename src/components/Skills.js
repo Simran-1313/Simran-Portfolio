@@ -44,7 +44,7 @@ const Skills = () => {
             <Skill name="Framer Motion" x="0vw" y="12vw" />
             <Skill name="DSA" x="-20vw" y="-15vw" />
             <Skill name="C++" x="15vw" y="-12vw" />
-            <Skill name="Python" x="32vw" y="-5vw" />
+            <Skill name="ReactJS" x="32vw" y="-5vw" />
             <Skill name="NextJS" x="0vw" y="-20vw" />
             <Skill name="Tailwind CSS" x="-25vw" y="18vw" />
             <Skill name="Bootstrap" x="18vw" y="18vw" />
